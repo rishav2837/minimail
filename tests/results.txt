@@ -1,0 +1,42 @@
+PASS - T01 server greets new client 
+PASS - T02 register alice 
+PASS - T03 duplicate username rejected 
+PASS - T04 duplicate email rejected 
+PASS - T05 invalid email rejected 
+PASS - T06 short password rejected 
+PASS - T07 path-traversal username rejected 
+PASS - T08 register bob and carol 
+PASS - T09 passwords stored hashed, not plaintext 
+PASS - T10 login with wrong password 
+PASS - T11 login non-existent user 
+PASS - T12 commands need login 
+PASS - T13 login alice ok 
+PASS - T14 second session for same user rejected 
+PASS - T15 login bob ok (second client) 
+PASS - T16 send to non-existent user 
+PASS - T17 empty subject 
+PASS - T18 empty body 
+PASS - T19 no recipient 
+PASS - T20 send to bob 
+PASS - T21 send to two recipients 
+PASS - T22 bob inbox has 2 unread mails 
+PASS - T23 read mail shows sender/subject/body 
+PASS - T24 mail marked read after reading 
+PASS - T25 read non-existent id 
+PASS - T26 read bad id 
+PASS - T27 sent list shows 2 mails 
+PASS - T28 view sent mail 
+PASS - T29 special chars round-trip 
+PASS - T30 escaped body stored/returned intact 
+PASS - T31 invalid command 
+PASS - T32 malformed request (wrong field count) 
+PASS - T33 empty request 
+PASS - T34 lowercase command rejected (case-sensitive) 
+PASS - T35 oversized request rejected, connection closed 
+PASS - T36 server alive after abrupt disconnect 
+PASS - T37 logout then re-login allowed 
+PASS - T38 data persists after server restart 
+PASS - T39 6 concurrent clients, 300 mails sent without error 
+PASS - T40 each inbox has exactly 50 mails with unique IDs (no lost updates) 
+
+40/40 tests passed

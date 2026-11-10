@@ -1,0 +1,12 @@
+$ ./client 127.0.0.1 5999      (no server listening)
+Cannot connect to 127.0.0.1:5999 - is the server running?
+connect: Connection refused
+
+$ ./client 127.0.0.1 99999     (invalid port)
+Invalid port: 99999
+
+$ ./client 999.1.1.1 5000      (invalid IP)
+Invalid server address '999.1.1.1': Name or service not known
+
+$ ./server -p 70000            (invalid port)
+Invalid port: 70000

@@ -1,0 +1,77 @@
+Connected to MiniMail server at 127.0.0.1:5060
+
+===== MiniMail =====
+1. Register
+2. Login
+3. Quit
+Choice: Username (3-32 letters/digits/_): Email address: Password (min 6 chars): Confirm password:   Registration successful. You can now log in.
+
+===== MiniMail =====
+1. Register
+2. Login
+3. Quit
+Choice: Username: Password:   Error [BAD_PASSWORD]: Incorrect password
+
+===== MiniMail =====
+1. Register
+2. Login
+3. Quit
+Choice: Username: Password:   Logged in as carol.
+
+===== MiniMail - carol =====
+1. Compose
+2. Inbox
+3. Read email
+4. Sent mail
+5. View sent email
+6. Logout
+Choice: 
+-------- INBOX --------
+ID    FROM           SUBJECT                        DATE                 STATUS
+1     alice          Internet Technology Lab        2026-11-01 20:25:38  NEW
+2     bob            Re: Internet Technology Lab    2026-11-01 20:25:42  NEW
+
+
+===== MiniMail - carol =====
+1. Compose
+2. Inbox
+3. Read email
+4. Sent mail
+5. View sent email
+6. Logout
+Choice: Email ID to read: 
+==================== EMAIL #1 ====================
+From:    alice
+To:      bob,carol
+Subject: Internet Technology Lab
+Date:    2026-11-01 20:25:38
+--------------------------------------------------
+Please complete the socket programming experiment.
+Submit by Friday.
+
+==================================================
+
+
+===== MiniMail - carol =====
+1. Compose
+2. Inbox
+3. Read email
+4. Sent mail
+5. View sent email
+6. Logout
+Choice: Email ID to read:   Error [NO_SUCH_EMAIL]: No email with that ID
+
+===== MiniMail - carol =====
+1. Compose
+2. Inbox
+3. Read email
+4. Sent mail
+5. View sent email
+6. Logout
+Choice:   Logged out.
+
+===== MiniMail =====
+1. Register
+2. Login
+3. Quit
+Choice: Goodbye.
